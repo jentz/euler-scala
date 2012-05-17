@@ -8,10 +8,10 @@ package problem1
 object Problem1 extends App {
 
   def sum3sAnd5s(max : Int) : Int = {
-    var sum = 0;
+    var sum = 0
     for (i <- 1 to max) {
       if (i % 3 == 0 || i % 5 == 0) {
-        sum += i;
+        sum += i
       }
     }
     sum
